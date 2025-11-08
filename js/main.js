@@ -62,7 +62,7 @@ document.querySelectorAll('.nav-items .group').forEach(item => {
 // Content Data
 // Content Data with updates
 // Content Data
-const roles = ["Research Associate", "Python Dev", "Beginner in AI/ML"];
+const roles = ["QA Engineer", "Prompt Engineer", "Scrum Methodologies"];
 
 const projects = [
     {
@@ -155,9 +155,16 @@ const education = [
 
 const experience = [
     {
+        title: "Engineer Trainee ",
+        company: "Konverz AI",
+        period: "Jul 2025 - Present",
+        description: "Working as a QA Engineer, Prompt Engineer & Driving project's success with agile methodologies",
+    },
+    
+    {
         title: "AI Research & Development Intern",
         company: "Kognoz",
-        period: "Apr 2025 - Present",
+        period: "Apr 2025 - Jul 2025",
         description: "Involved in test cases, AI research  & helping python development team",
     },
     {

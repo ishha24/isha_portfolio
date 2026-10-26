@@ -62,7 +62,7 @@ document.querySelectorAll('.nav-items .group').forEach(item => {
 // Content Data
 // Content Data with updates
 // Content Data
-const roles = ["QA Engineer", "Prompt Engineer", "Scrum Methodologies"];
+const roles = ["Associate Operations", "Member Of Technical Staff"];
 
 const projects = [
     {
@@ -93,32 +93,59 @@ const projects = [
 ];
 
 const techStack = [
-    // Languages & Core Technologies
-    { name: "Python", class: "python-bg" },
-    { name: "HTML5", class: "html5-bg" },
-    { name: "CSS3", class: "css3-bg" },
-    { name: "JavaScript", class: "javascript-bg" },
-    { name: "SQL", class: "sql-bg" },
 
-    
-    // Frameworks & Libraries
-    { name: "Pandas", class: "panda-bg" },
-    { name: "Numpy", class: "numpy-bg" },
-    { name: "Plotly", class: "plotly-bg" },
-    { name: "Matplotlib", class: "matplotlib-bg" },
-    { name: "sci-kit", class: "sci-bg" },
-    { name: "Transformer", class: "trans-bg" },
-    
-    
-    // Databases & Tools
-    { name: "Torch", class: "torch-bg" },
-    { name: "MySQL", class: "mysql-bg" },
-    { name: "Canva", class: "canva-bg" },
-    { name: "GitHub", class: "github-bg" },
-    { name: "Git", class: "git-bg" }
+  // Customer Success
+  { name: "Client Servicing", class: "client-servicing-bg" },
+  { name: "Account Management", class: "account-management-bg" },
+  { name: "Client Retention", class: "client-retention-bg" },
+  { name: "Stakeholder Engagement", class: "stakeholder-engagement-bg" },
+
+  // SaaS Operations
+  { name: "Enterprise SaaS", class: "saas-bg" },
+  { name: "Client Onboarding", class: "client-onboarding-bg" },
+  { name: "Product Support", class: "product-support-bg" },
+  { name: "Process Optimization", class: "process-optimization-bg" },
+
+  // Quality Assurance
+  { name: "Quality Assurance (QA)", class: "qa-bg" },
+  { name: "User Acceptance Testing (UAT)", class: "uat-bg" },
+  { name: "Defect Tracking", class: "defect-tracking-bg" },
+  { name: "Release Validation", class: "release-validation-bg" },
+  { name: "Pre-Go-Live Checks", class: "go-live-bg" },
+
+  // Ticket Management
+  { name: "Ticket Resolution", class: "ticket-resolution-bg" },
+  { name: "TAT Management", class: "tat-bg" },
+  { name: "Issue Escalation", class: "issue-escalation-bg" },
+  { name: "SLA Tracking", class: "sla-bg" },
+
+  // Client Communication
+  { name: "Relationship Management", class: "relationship-management-bg" },
+  { name: "Presentations", class: "presentations-bg" },
+  { name: "Product Walkthroughs", class: "product-walkthroughs-bg" },
+  { name: "Training Decks", class: "training-decks-bg" },
+
+  // Project Coordination
+  { name: "Cross-functional Collaboration", class: "collaboration-bg" },
+  { name: "Task Prioritization", class: "task-prioritization-bg" },
+  { name: "Accountability & Ownership", class: "ownership-bg" },
+
+  // Reporting & Tools
+  { name: "MS Excel", class: "excel-bg" },
+  { name: "PowerPoint", class: "powerpoint-bg" },
+  { name: "Jira", class: "jira-bg" },
+  { name: "Documentation", class: "documentation-bg" },
+  { name: "Operational Reporting", class: "reporting-bg" },
+
 ];
 
 const education = [
+    {
+        school: "Delhi Global Institute of Management",
+        degree: "MBA in AI & Data Science",
+        period: "2026 - 2028",
+        description: "Pursuing",
+    },
     {
         school: "J.C. Bose University of Science & Technology, YMCA",
         degree: "B.Tech in Computer Science Engineering",
@@ -129,7 +156,7 @@ const education = [
         school: "Vidya Niketan High School, Delhi-NCR",
         degree: "High School",
         period: "Completed in 2021",
-        description: "Science with CS",
+        description: "91.4 % in Science with CS",
     },
     {
         school: "DUCAT Institue, Delhi-NCR",
@@ -142,41 +169,35 @@ const education = [
         school: "Coursera, Online",
         degree: "Python for AI and Development",
         period: "Completed in 2024",
-        description: "Learnt python basics for AI and Development"
+        description: "Learnt Python basics for AI and Development"
     }
     ,
     {
         school: "Coursera, Online",
         degree: "Introduction to Data Engineering",
         period: "Completed in 2024",
-        description: "Understood basics of Data Engineering"
+        description: "Understood the basics of Data Engineering"
     }
 ];
 
 const experience = [
     {
+        title: "Associate Member of Technical Staff ",
+        company: "Kognoz Innovations Pvt Ltd",
+        period: "Jul 2026 - Oct 2026",
+        description: "Client servicing, QA/UAT, ticket resolution, stakeholder management, and process optimization across BFSI, Insurance, Energy, Mining, Financial Services, and Corporate Services.",
+    },{
         title: "Engineer Trainee ",
-        company: "Konverz AI",
-        period: "Jul 2025 - Present",
+        company: "Kognoz Innovations Pvt Ltd",
+        period: "Jul 2025 - Jul 2026",
         description: "Working as a QA Engineer, Prompt Engineer & Driving project's success with agile methodologies",
     },
     
     {
-        title: "AI Research & Development Intern",
-        company: "Kognoz",
+        title: "Associate -Project Coordination ",
+        company: "SoulCurry Media Pvt Ltd"",
         period: "Apr 2025 - Jul 2025",
-        description: "Involved in test cases, AI research  & helping python development team",
-    },
-    {
-        title: "Research Intern",
-        company: "Soulcurry",
-        period: "Jan 2025 - Mar 2025",
-        description: "Was involved in researching reliable content and generating reports",
-    },
-    {   title: "Research Writer",
-        company: "i-pangram",
-        period: "2024",
-        description: "Was involved in researching reliable content and generating articles",
+        description: "Involved in test cases, AI research  & helping CS development team",
     }
 ];
 // Loader and Initial Setup
